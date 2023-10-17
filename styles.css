@@ -1,0 +1,51 @@
+*{ 
+    /* outline: red solid 2px; */
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar-logo{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin-left: 20rem;
+    margin-right: -20rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.container-fluid{
+    margin-top: -1rem;
+    padding: 1rem;
+    background-color: #33bee1;
+   
+}
+.container-fluid a{
+    color: #ffffff; /*#e0c19d */
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dropdown-item a:hover {
+    background-color: inherit; 
+    color: inherit;
+}
+.laundry{
+    margin-top: -10rem;
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-inner{
+    height: 40rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.container{
+    margin-top: -0rem;
+}
