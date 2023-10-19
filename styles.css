@@ -22,8 +22,14 @@
 
 /* Media query for screens with a width less than 480px */
 @media (max-width: 480px) {
+    *{
+        font-size: medium;
+       .text-justify{
+        text-align: justify;
+       }
+    }
     #carouselText {
-        font-size: 8px;
+        /* font-size: 5px; */
         color: rgb(255, 255, 255);
     }
     #carouselButton{
