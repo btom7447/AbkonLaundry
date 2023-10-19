@@ -4,9 +4,6 @@
     scroll-behavior: smooth;
     font-size: large;
 }
-.navbar-container{
-    background-color: white;
-}
 .carousel-inner{
     height: 40rem;
     width: 100%;
@@ -16,9 +13,8 @@
     width: 100%;
     object-fit: cover;
 }
-#container-marketing-img{
-    padding: 2.5rem;
-    object-fit: contain;
+.carousel-text{
+    font-size: 1rem;
 }
 .popup-contact {
     display: none;
@@ -43,7 +39,7 @@
         text-align: justify;
        }
     }
-    #carouselText {
+    .carouselText {
         color: rgb(255, 255, 255);
     }
     #carouselButton{
